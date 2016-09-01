@@ -1,0 +1,76 @@
+/********** Desktop devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+	margin: 10px 0px;
+  }
+}
+/********** Tablet devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+	margin: 10px 0px;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/********** Mobile devices only **********/
+@media (max-width: 767px) {
+  .col-sm-12 {
+    width: 100%;
+    float: left;
+	margin: 10px 0px;
+  }
+}
+
+/********** Base styles **********/
+* {
+	box-sizing: border-box;
+	font-size: 14px;
+	font-family: Helvetica;
+}
+
+/********** Styling for the main title of the page **********/
+h1 {
+	margin-bottom: 15px;
+	font-size: 175%;
+}
+
+/********** Just o make sure each row on the table takes the whole width of the page **********/
+.row {
+	width: 100%;
+}
+
+/********** Styling for each section on the row **********/
+div.section{
+	background-color: #d3d3d3;
+	height: 210px;
+	margin: 0px 10px;
+	border: 1px solid black;
+}
+
+/********** Styling for the title in each section **********/
+div.title-container{
+	border: 1px solid black;
+	width: 100px;
+	text-align: center;
+	font-size: 125%;
+	padding: 10px;
+	background-color: #cf0a2c;
+	color: yellow;
+	float: right;
+}
+
+/********** Styling for the content in each section **********/
+div.menu-content {
+	color: black;
+	padding: 20px;
+	position: relative;
+	top: 30px;
+}
