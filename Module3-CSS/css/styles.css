@@ -1,0 +1,80 @@
+*{
+	box-sizing: border-box;
+	font-size: 14px;
+	font-family: Helvetica;
+}
+
+body{
+	background-color: yellow;
+}
+
+.container{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#header-nav{
+	background-color: green;
+}
+
+.navbar-header{
+	margin: 20px;	
+}
+
+.navbar-brand{
+	height: 30px;
+}
+
+.navbar-brand h1{
+	margin: 0;
+	color: white;
+	position: absolute;
+	left: 5px;
+	top: 5px;
+	padding: 10px 0px 10px 10px;
+}
+
+#collapsable-nav-button{
+	margin-right: 30px;
+}
+
+#collapsable-nav{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#nav-list{
+	width: 100%;
+	background-color: blue;
+	text-align: center;
+	color: white;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+}
+
+#nav-list li{
+	border: 1px solid black;
+}
+
+header h1{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.row{
+	height: 1000px;
+	background-color: orange;
+	margin: 0 30px;
+}
+
+.title-container{
+	text-align: center;
+	font-size: 1.3em;
+}
+
+.section{
+	padding: 10px 0px;
+	height: 200px;
+}
